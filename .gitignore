@@ -40,3 +40,12 @@ import-summary.txt
 local.properties
 nfc-tools.iml
 settings.gradle
+/desknfc/
+/libfreefare/
+/libnfc-llcp/
+/nfc-eventd/
+/nfcd/
+/nfcutils/
+/pam_nfc/
+/ucard/
+/mfoc/debian/
