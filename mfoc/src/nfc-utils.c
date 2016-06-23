@@ -31,8 +31,10 @@
 #include <nfc/nfc.h>
 #include <err.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 #include "nfc-utils.h"
+#include "../android/AndroidMfoc/jni/include/nfc/nfc-types.h"
 
 static const uint8_t OddParity[256] = {
   1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1,

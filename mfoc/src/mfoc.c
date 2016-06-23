@@ -48,6 +48,9 @@
 #include "mifare.h"
 #include "nfc-utils.h"
 #include "mfoc.h"
+#include "../android/AndroidMfoc/jni/include/nfc/nfc-types.h"
+#include "../android/AndroidMfoc/jni/include/nfc/nfc.h"
+#include "../android/AndroidMfoc/jni/include/config.h"
 
 int main(int argc, char * const argv[]) {
 	const nfc_modulation nm = {

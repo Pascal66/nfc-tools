@@ -19,17 +19,17 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 
-#include <nfc/nfc.h>
-
-#include <stdlib.h>
-#include <stdio.h>
+//#include <stdlib.h>
+//#include <stdio.h>
 
 #include <jni.h>
+#include "include/nfc/nfc-types.h"
+#include "include/stdio.h"
+#include "include/nfc/nfc.h"
 
 #define IMPLEMENT_ME do { fprintf(stderr, "ERROR: function %s not implemented. exiting.\n", __FUNCTION__); abort(); } while (0)
 
 jobject fake_libnfc;
-
 
 /* Helper to call simple int method */
 static int call_method_int(JNIEnv *env, jobject obj, const char *name)

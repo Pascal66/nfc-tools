@@ -1,8 +1,9 @@
 #include <jni.h>
 #include "mfoc-jni.h"
+#include "include/stdio.h"
 
-#include <stdlib.h>
-#include <stdio.h>
+//#include <stdlib.h>
+//#include <stdio.h>
 
 #include <setjmp.h>
 #include <getopt.h>

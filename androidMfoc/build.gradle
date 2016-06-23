@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "net.raisama.nfc.mfoc"
+        minSdkVersion 10
+        targetSdkVersion 24
+
+        // To remove for migration
+        ndk {
+            moduleName "mfoc"
+        }
+
+        //Prepare Cmake migration
+        cmake {
+            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    //Prepare Cmake migration
+//    externalNativeBuild {
+//        cmake {
+//            path "src/main/cpp/CMakeLists.txt"
+//        }
+//    }
+
+    // To remove for migration
+    externalNativeBuild {
+        ndkBuild {
+            path '../mfoc/android/AndroidMfoc/jni/Android.mk'
+        }
+    }
+}

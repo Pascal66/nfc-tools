@@ -29,7 +29,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-
 typedef void *nfc_context;
 typedef struct nfc_device nfc_device;
 

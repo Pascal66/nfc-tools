@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include "../android/AndroidMfoc/jni/include/nfc/nfc-types.h"
+
 #define MEM_CHUNK               10000
 #define TRY_KEYS                50
 

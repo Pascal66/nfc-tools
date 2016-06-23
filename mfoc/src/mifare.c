@@ -29,10 +29,12 @@
  */
 
 #include "mifare.h"
+#include "../android/AndroidMfoc/jni/include/nfc/nfc.h"
 
 #include <string.h>
 
 #include <nfc/nfc.h>
+#include <stdbool.h>
 
 /**
  * @brief Execute a MIFARE Classic Command

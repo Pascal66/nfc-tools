@@ -1,7 +1,9 @@
 #include <stdarg.h>
 #include <jni.h>
-#include <stdio.h>
-
+#include <malloc.h>
+#include <stdlib.h>
+//#include <stdio.h>
+#include "include/stdio.h"
 #include "mfoc-jni.h"
 
 struct FILE {

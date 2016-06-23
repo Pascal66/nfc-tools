@@ -1,0 +1,56 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\Android.mk"
+  ],
+  "libraries": {
+    "x86-libmfoc-release": {
+      "buildCommand": "C:\\Users\\Pascal\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:\\Users\\Pascal\\git\\nfc-tools\\androidMfoc\\build\\intermediates\\ndk-build\\release\\obj NDK_LIBS_OUT\u003dC:\\Users\\Pascal\\git\\nfc-tools\\androidMfoc\\build\\intermediates\\ndk-build\\release\\lib",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "files": [
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\crapto1.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\crypto1.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\mfoc.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\mifare.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\nfc-utils.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\fake-libnfc.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\fake-stdio.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\mfoc.c",
+          "flags": "\"-MMD\" \"-MP\" \"-ffunction-sections\" \"-funwind-tables\" \"-no-canonical-prefixes\" \"-g\" \"-fstack-protector-strong\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-x86/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\Pascal\\git\\nfc-tools\\androidMfoc\\build\\intermediates\\ndk-build\\release\\obj\\local\\x86\\libmfoc.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "C:\\Users\\Pascal\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\x86-4.9\\prebuilt\\windows-x86_64\\bin\\i686-linux-android-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,56 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\Android.mk"
+  ],
+  "libraries": {
+    "mips-libmfoc-debug": {
+      "buildCommand": "C:\\Users\\Pascal\\AppData\\Local\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dC:\\Users\\Pascal\\git\\nfc-tools\\androidMfoc\\build\\intermediates\\ndk-build\\debug\\obj NDK_LIBS_OUT\u003dC:\\Users\\Pascal\\git\\nfc-tools\\androidMfoc\\build\\intermediates\\ndk-build\\debug\\lib",
+      "toolchain": "toolchain-mips",
+      "abi": "mips",
+      "files": [
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\crapto1.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\crypto1.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\mfoc.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\mifare.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\..\\..\\..\\src\\nfc-utils.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\fake-libnfc.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\fake-stdio.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        },
+        {
+          "src": "C:\\Users\\Pascal\\git\\nfc-tools\\mfoc\\android\\AndroidMfoc\\jni\\mfoc.c",
+          "flags": "\"-MMD\" \"-MP\" \"-fpic\" \"-finline-functions\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-fno-inline-functions-called-once\" \"-fgcse-after-reload\" \"-frerun-cse-after-loop\" \"-frename-registers\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"C:/Users/Pascal/AppData/Local/Android/sdk/ndk-bundle/build//../platforms/android-24/arch-mips/usr/include\""
+        }
+      ],
+      "output": "C:\\Users\\Pascal\\git\\nfc-tools\\androidMfoc\\build\\intermediates\\ndk-build\\debug\\obj\\local\\mips\\libmfoc.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-mips": {
+      "cCompilerExecutable": "C:\\Users\\Pascal\\AppData\\Local\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\mipsel-linux-android-4.9\\prebuilt\\windows-x86_64\\bin\\mipsel-linux-android-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
