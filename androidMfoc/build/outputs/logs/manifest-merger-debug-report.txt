@@ -25,6 +25,19 @@ ADDED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xm
 		ADDED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml:8:22-59
 application
 ADDED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml:11:5-23:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml:13:9-41
 	android:icon
@@ -47,6 +60,21 @@ ADDED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xm
 		ADDED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Pascal\git\nfc-tools\androidMfoc\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Pascal\git\nfc-tools\androidMfoc\src\main\AndroidManifest.xml

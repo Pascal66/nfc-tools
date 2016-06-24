@@ -58,3 +58,5 @@ settings.gradle
 /androidMfoc/compiler-file.d
 /androidMfoc/compiler-file2.d
 /.idea/
+/dumps/
+/dev-tools/

@@ -35,9 +35,20 @@ android {
 //    }
 
     // To remove for migration
+    // Documentation purpose: app/src/main/jni is reserved for deprecated native build system;
+    // Steer away from this directory by DELETING it for ndk-build/cmake + android studio usage.
+    // Otherwise you need to
+    //    add android.useDeprecatedNdk=true to gradle.properties
+    //    enable the following line to silence android studio complaint
+    // sourceSets.main.jni.srcDirs = []
     externalNativeBuild {
         ndkBuild {
             path '../mfoc/android/AndroidMfoc/jni/Android.mk'
         }
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile 'com.android.support:appcompat-v7:24.0.0'
     }
 }
