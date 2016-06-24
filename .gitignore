@@ -1,13 +1,5 @@
 .DS_Store
 .gradle/
-.idea/compiler.xml
-.idea/copyright/
-.idea/encodings.xml
-.idea/gradle.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/nfc-tools.iml
-.idea/workspace.xml
 androidMfoc/build/generated/assets/
 androidMfoc/build/generated/res/
 androidMfoc/build/generated/source/aidl/
@@ -28,8 +20,6 @@ androidMfoc/build/intermediates/rs/
 androidMfoc/build/intermediates/shaders/
 androidMfoc/build/intermediates/symbols/
 androidMfoc/build/tmp/
-androidMfoc/compiler-file260.d
-androidMfoc/compiler-file697.d
 build/
 gen/
 gradle.properties
