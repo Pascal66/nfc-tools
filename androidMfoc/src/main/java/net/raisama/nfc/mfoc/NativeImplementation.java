@@ -1,5 +1,7 @@
 package net.raisama.nfc.mfoc;
 
+import java.util.Locale;
+
 public class NativeImplementation {
 
 	/** Call the main() function of fmoc
@@ -18,7 +20,7 @@ public class NativeImplementation {
 	public void callMain()
 	{
 		int r = nativeMain();
-		fake_stdio.printUiMessage(String.format("program exited with status %d\n", r));
+		fake_stdio.printUiMessage(String.format(Locale.getDefault(), "program exited with status %d\n", r));
 	}
 
 	public void setRunningActivity(AndroidMfocActivity a)

@@ -1,11 +1,11 @@
 #include <jni.h>
 #include "mfoc-jni.h"
 
-#include <stdlib.h>
 #include <stdio.h>
-
 #include <setjmp.h>
 #include <getopt.h>
+
+#include "include/stdio.h"
 
 int main(int argc, char * const argv[]);
 

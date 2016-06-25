@@ -1,9 +1,10 @@
 package net.raisama.nfc.mfoc;
 
-import java.lang.reflect.Method;
-
 import android.nfc.Tag;
 import android.nfc.tech.MifareClassic;
+
+import java.lang.reflect.Method;
+import java.util.Locale;
 
 public class NfcDevice {
 
@@ -31,7 +32,7 @@ public class NfcDevice {
 		try {
 			transceiveMethod = MifareClassic.class.getSuperclass().getDeclaredMethod("transceive", new Class[] { byte[].class, boolean.class });
 		} catch (NoSuchMethodException e) {
-			mActivity.printUiMessage("couldn't find transceive(byte[], boolean) method :(\n");
+			mActivity.printUiMessage("Couldn't find transceive(byte[], boolean) method :(\n");
 			transceiveMethod = null;
 		}
 		transceiveMethod.setAccessible(true);
@@ -90,7 +91,7 @@ public class NfcDevice {
 			//mActivity.printUiMessage(String.format("transceive(byte[], boolean) raised: %s: %s\n", e.getClass().getName(), e.getMessage()));
 			return null;			
 		} catch (java.lang.IllegalAccessException e) {
-			mActivity.printUiMessage(String.format("couldn't call transceive(byte[], boolean) method: %s: %s\n", e.getClass().getName(), e.getMessage()));
+			mActivity.printUiMessage(String.format("Couldn't call transceive(byte[], boolean) method: %s: %s\n", e.getClass().getName(), e.getMessage()));
 			throw e;
 		}	
 		
@@ -106,7 +107,7 @@ public class NfcDevice {
 			break;
 			case NP_HANDLE_PARITY:
 				if (!value) {
-					mActivity.printUiMessage("we can't implement NP_HANDLE_PARITY=false mode on Android. Sorry.\n");
+					mActivity.printUiMessage("We can't implement NP_HANDLE_PARITY=false mode on Android. Sorry.\n");
 					throw new Exception("NP_HANDLE_PARITY unsupported");
 				}
 			break;
@@ -118,7 +119,7 @@ public class NfcDevice {
 				/* Properties that are simply ignored */
 			break;
 			default:
-				mActivity.printUiMessage(String.format("Unknown property: %d\n", property));
+				mActivity.printUiMessage(String.format(Locale.getDefault(), "Unknown property: %d\n", property));
 		}
 	}
 }

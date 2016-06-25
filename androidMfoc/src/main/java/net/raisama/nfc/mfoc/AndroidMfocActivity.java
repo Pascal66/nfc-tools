@@ -1,11 +1,6 @@
 package net.raisama.nfc.mfoc;
 
-import java.io.IOException;
-import java.lang.Runnable;
 import android.app.Activity;
-import android.os.Bundle;
-import android.widget.TextView;
-import android.widget.ScrollView;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -13,7 +8,11 @@ import android.content.IntentFilter.MalformedMimeTypeException;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.nfc.tech.MifareClassic;
-import net.raisama.nfc.mfoc.NativeImplementation;
+import android.os.Bundle;
+import android.widget.ScrollView;
+import android.widget.TextView;
+
+import java.io.IOException;
 
 public class AndroidMfocActivity extends Activity {
 	FakeStdio fake_stdio;
@@ -65,16 +64,16 @@ public class AndroidMfocActivity extends Activity {
 	public void gotNewTag(Intent intent)
 	{
 	    //do something with tagFromIntent
-	    printUiMessage("got new tag!\n");
+	    printUiMessage("Got new tag!\n");
 	    Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
 	    mTag = tag;
 	    if (tag == null) {
-	    	printUiMessage("weird. No tag info on intent data?\n");
+	    	printUiMessage("Weird. No tag info on intent data?\n");
 	    	return;
 	    }
 	    mfc = MifareClassic.get(tag);
 	    if (mfc == null) {
-	    	printUiMessage("This tag is not Mifare Classic (or this device doesn't s upport it). Sorry.\n");
+	    	printUiMessage("This tag is not Mifare Classic (or this device doesn't support it). Sorry.\n");
 	    	return;
 	    }
 	    

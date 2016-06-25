@@ -22,8 +22,6 @@
 #ifndef __FAKE_ERR_H__
 #define __FAKE_ERR_H__
 
-#include <stdio.h>
-
 #define warnx(...) do { \
 	fprintf (stderr, __VA_ARGS__); \
 	fprintf (stderr, "\n"); \

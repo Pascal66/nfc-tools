@@ -27,6 +27,7 @@ int printf(const char *fmt, ...);
 size_t fwrite(const void *ptr, size_t size, size_t nitems,
               FILE *stream);
 
+static int my_vfprintf(FILE *f, const char *fmt, va_list ap);
 
 /* These ones are not from stdio.h, but it's easier to redefine it here:
  */

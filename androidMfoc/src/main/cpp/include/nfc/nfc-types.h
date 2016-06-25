@@ -29,7 +29,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-
 typedef void *nfc_context;
 typedef struct nfc_device nfc_device;
 
@@ -37,7 +36,6 @@ typedef struct nfc_device nfc_device;
  * Connection string
  */
 typedef char nfc_connstring[1024];
-
 
 // Compiler directive, set struct alignment to 1 uint8_t for compatibility
 #  pragma pack(1)

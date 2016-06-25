@@ -1,5 +1,5 @@
 package net.raisama.nfc.mfoc;
-import java.io.UnsupportedEncodingException;;
+import java.io.UnsupportedEncodingException;
 
 /** FakeFile implementation that prints messages to the UI
  * @author ehabkost

@@ -1,8 +1,9 @@
 #include <stdarg.h>
 #include <jni.h>
-//#include <stdio.h>
+#include <stdio.h>
 
 #include "mfoc-jni.h"
+#include "include/stdio.h"
 
 struct FILE {
 	jobject obj;
@@ -18,7 +19,6 @@ jobject fake_stdio_obj;
 JNIEnv *global_env;
 
 #define IMPLEMENT_ME (abort())
-
 
 JNIEXPORT void JNICALL Java_net_raisama_nfc_mfoc_NativeImplementation_setFakeStdioObject
   (JNIEnv *env, jobject obj, jobject fake_stdio, jobject out, jobject err)
@@ -46,7 +46,7 @@ FILE *fopen(const char *filename, const char *mode)
     return f;
 }
 
-static int vfprintf(FILE *f, const char *fmt, va_list ap)
+static int my_vfprintf(FILE *f, const char *fmt, va_list ap)
 {
 	char *formatted;
 	int len;
@@ -82,7 +82,7 @@ int fprintf(FILE *f, const char *fmt, ...)
 	int r;
 	va_list ap;
 	va_start(ap, fmt);
-	r = vfprintf(f, fmt, ap);
+	r = my_vfprintf(f, fmt, ap);
 	va_end(ap);
 	return r;
 }
@@ -92,7 +92,7 @@ int printf(const char *fmt, ...)
 	int r;
 	va_list ap;
 	va_start(ap, fmt);
-	r = vfprintf(stdout, fmt, ap);
+	r = my_vfprintf(stdout, fmt, ap);
 	va_end(ap);
 	return r;
 }
