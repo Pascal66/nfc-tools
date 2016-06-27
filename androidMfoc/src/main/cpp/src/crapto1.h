@@ -36,7 +36,7 @@ uint32_t prng_successor(uint32_t x, uint32_t n);
 struct Crypto1State* lfsr_recovery32(uint32_t ks2, uint32_t in);
 struct Crypto1State* lfsr_recovery64(uint32_t ks2, uint32_t ks3);
 
-//Missed definition ?
+//Missed definition of lsfr_rollback_word used in mf_enhanced_auth of src/mfoc.c
 uint32_t lfsr_rollback_word(struct Crypto1State *s, uint32_t in, int fb);
 
 void lfsr_rollback(struct Crypto1State* s, uint32_t in, int fb);
