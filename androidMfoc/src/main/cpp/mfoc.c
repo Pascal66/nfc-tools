@@ -27,7 +27,7 @@ JNIEXPORT jint JNICALL Java_net_raisama_nfc_mfoc_NativeImplementation_nativeMain
 	optind = 1;
 
 
-	char * const argv[] = {"fmoc", "-O", "/sdcard/fmoc-output.test", NULL};
+	char * const argv[] = {"mfoc", "-O", "/sdcard/fmoc-output.test", NULL};
 	exit_status = main(3, argv);
 out:
 	global_env = NULL;
