@@ -36,6 +36,9 @@ uint32_t prng_successor(uint32_t x, uint32_t n);
 struct Crypto1State* lfsr_recovery32(uint32_t ks2, uint32_t in);
 struct Crypto1State* lfsr_recovery64(uint32_t ks2, uint32_t ks3);
 
+//Missed definition ?
+uint32_t lfsr_rollback_word(struct Crypto1State *s, uint32_t in, int fb);
+
 void lfsr_rollback(struct Crypto1State* s, uint32_t in, int fb);
 int nonce_distance(uint32_t from, uint32_t to);
 #define FOREACH_VALID_NONCE(N, FILTER, FSIZE)\
