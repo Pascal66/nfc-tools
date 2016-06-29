@@ -1,52 +1,47 @@
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
-
     defaultConfig {
         applicationId "net.raisama.nfc.mfoc"
-        minSdkVersion 10
+        minSdkVersion 15
         targetSdkVersion 24
 
         // To remove for migration
-        ndk {
-            moduleName "mfoc"
-        }
+//        ndk {
+//            moduleName "mfoc"
+//        }
 
         //Prepare Cmake migration
         cmake {
-//            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
-            abiFilters 'armeabi-v7a'
+            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'
         }
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-
     //Prepare Cmake migration
-//    externalNativeBuild {
-//        cmake {
-//            path "src/main/cpp/CMakeLists.txt"
-//        }
-//    }
-
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
     // To remove for migration
     // Documentation purpose: app/src/main/jni is reserved for deprecated native build system;
     // Steer away from this directory by DELETING it for ndk-build/cmake + android studio usage.
     // Otherwise you need to
     //    add android.useDeprecatedNdk=true to gradle.properties
     //    enable the following line to silence android studio complaint
-    // sourceSets.main.jni.srcDirs = []
-    externalNativeBuild {
-        ndkBuild {
-            path 'src/main/cpp/Android.mk'
-        }
-    }
+//    sourceSets.main.jni.srcDirs = []
+
+//    externalNativeBuild {
+//        ndkBuild {
+//            path 'src/main/cpp/Android.mk'
+//        }
+//    }
 
     dependencies {
         compile fileTree(include: ['*.jar'], dir: 'libs')
